@@ -1,0 +1,42 @@
+[
+  {
+    "pertanyaan": "Apakah silase aman diberikan ke ternak setiap hari?",
+    "jawaban": "Ya, silase aman diberikan setiap hari sebagai pakan utama atau pendamping. Pastikan selalu tersedia air minum bersih yang cukup karena sifat silase yang asam membutuhkan hidrasi ekstra bagi ternak."
+  },
+  {
+    "pertanyaan": "Berapa lama silase bisa disimpan?",
+    "jawaban": "Silase yang disimpan dalam kondisi tertutup rapat dan lingkungan yang tepat (teduh, kering) bisa bertahan 4–7 bulan. Pastikan wadah tidak pernah dibuka sebelum 21 hari pertama selesai."
+  },
+  {
+    "pertanyaan": "Bolehkah mencampur lebih dari satu jenis tanaman?",
+    "jawaban": "Boleh. Mencampur hijauan seperti rumput gajah dengan tanaman legum seperti indigofera bahkan bisa meningkatkan kandungan protein silase. Pastikan komposisi bahan baku utama tetap mendominasi (minimal 70–80%) dan proporsi dedak serta molases dihitung dari total berat keseluruhan."
+  },
+  {
+    "pertanyaan": "Apakah silase bisa diberikan ke ayam atau unggas?",
+    "jawaban": "Tidak dianjurkan. Silase dirancang khusus untuk ternak ruminansia (sapi, kambing, domba, kerbau) yang sistem pencernaannya mampu mengolah pakan asam. Unggas tidak memiliki sistem pencernaan yang sesuai."
+  },
+  {
+    "pertanyaan": "Apa yang terjadi kalau wadah tidak tertutup rapat?",
+    "jawaban": "Jika ada udara masuk, proses fermentasi anaerob terganggu. Alih-alih menghasilkan asam laktat, bahan akan membusuk dan berjamur. Pastikan tidak ada celah udara sekecil apapun saat menutup wadah."
+  },
+  {
+    "pertanyaan": "Apakah silase yang sudah dibuka bisa disimpan lagi?",
+    "jawaban": "Tidak. Setelah dibuka, silase harus langsung diberikan ke ternak dan dihabiskan dalam satu hari. Jangan menutup kembali silase yang sudah dibuka karena akan cepat rusak akibat paparan udara."
+  },
+  {
+    "pertanyaan": "Berapa banyak silase yang diberikan ke ternak per hari?",
+    "jawaban": "Sebagai panduan umum, sapi dewasa dapat diberikan 10–15 kg per hari, kambing dan domba sekitar 1–3 kg per hari. Jumlah ini bisa disesuaikan dengan bobot badan dan ketersediaan pakan lainnya."
+  },
+  {
+    "pertanyaan": "Apakah bisa menggunakan wadah selain drum atau plastik silase?",
+    "jawaban": "Bisa, asalkan wadah dapat ditutup rapat dan kedap udara. Beberapa peternak menggunakan silo tanah (lubang dilapisi plastik) untuk kapasitas besar. Yang terpenting adalah tidak ada udara masuk selama fermentasi."
+  },
+  {
+    "pertanyaan": "Kenapa harus diangin-anginkan dulu sebelum dicacah?",
+    "jawaban": "Tujuannya mengurangi kadar air berlebih dalam tanaman. Jika terlalu basah, fermentasi tidak optimal dan silase bisa berair atau berbau tidak sedap."
+  },
+  {
+    "pertanyaan": "Apakah molases wajib? Bisa diganti dengan apa?",
+    "jawaban": "Molases berfungsi sebagai sumber gula yang membantu bakteri asam laktat berkembang. Sangat dianjurkan untuk hasil terbaik. Jika tidak tersedia, dapat digantikan dengan tetes tebu cair atau larutan gula merah, meski hasilnya mungkin sedikit berbeda."
+  }
+]

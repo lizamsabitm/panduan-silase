@@ -1,0 +1,34 @@
+[
+  {
+    "id": "rumput-gajah",
+    "nama": "Rumput Gajah",
+    "bk": 21,
+    "pk": 9.4,
+    "sk": 32.1,
+    "tdn": 50.46
+  },
+  {
+    "id": "rumput-raja",
+    "nama": "Rumput Raja",
+    "bk": 11.15,
+    "pk": 9.73,
+    "sk": 31.69,
+    "tdn": 52.78
+  },
+  {
+    "id": "rumput-odot",
+    "nama": "Rumput Odot",
+    "bk": 11.96,
+    "pk": 9.13,
+    "sk": 29.63,
+    "tdn": 52.96
+  },
+  {
+    "id": "tebon-jagung",
+    "nama": "Jerami (Tebon) Jagung",
+    "bk": 25.3,
+    "pk": 9.4,
+    "sk": 27.1,
+    "tdn": 59.2
+  }
+]

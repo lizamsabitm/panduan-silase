@@ -1,26 +1,181 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
+@theme {
+  /* Warna hijau utama */
+  --color-hijau-50: #f0f9eb;
+  --color-hijau-100: #ddf0cc;
+  --color-hijau-200: #bde3a0;
+  --color-hijau-300: #93cf6a;
+  --color-hijau-400: #6eb840;
+  --color-hijau-500: #4e9e28;
+  --color-hijau-600: #3b7d1c;
+  --color-hijau-700: #2f6218;
+  --color-hijau-800: #294e18;
+  --color-hijau-900: #244317;
+
+  /* Warna aksen cokelat tanah (natural, tidak mencolok) */
+  --color-tanah-100: #f5f0e8;
+  --color-tanah-200: #e8dcc8;
+  --color-tanah-300: #c8a97a;
+  --color-tanah-400: #a67c52;
+
+  /* Warna teks dan background */
+  --color-background: #ffffff;
+  --color-surface: #f8faf6;
+  --color-teks-utama: #1a2e0f;
+  --color-teks-sekunder: #4a5e3a;
+  --color-teks-ringan: #6b7c5e;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@media print {
+  /* Sembunyikan yang tidak perlu */
+  nav,
+  #beranda,
+  #pengenalan,
+  #tips,
+  #faq,
+  footer,
+  .tombol-cetak,
+  button {
+    display: none !important;
   }
-}
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  /* Reset umum */
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    box-shadow: none !important;
+  }
+
+  html, body {
+    font-size: 12pt;
+    color: #000;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Seksi panduan */
+  #panduan {
+    padding: 0 !important;
+    background: #fff !important;
+  }
+
+  #panduan > div {
+    max-width: 100% !important;
+    padding: 0 !important;
+  }
+
+  /* Sembunyikan badge "Panduan Pembuatan" dan subjudul */
+  #panduan .rounded-full,
+  #panduan .text-teks-sekunder.max-w-2xl {
+    display: none !important;
+  }
+
+  /* Header cetak */
+  #panduan .text-center.mb-12::before {
+    content: "PanduanSilase — Panduan Pembuatan Pakan Silase";
+    display: block;
+    font-size: 16pt;
+    font-weight: bold;
+    color: #2f6218;
+    text-align: center;
+    margin-bottom: 6pt;
+    padding-bottom: 6pt;
+    border-bottom: 2pt solid #2f6218;
+  }
+
+  /* Sembunyikan tombol pilih bahan baku tapi tampilkan card-nya */
+  #panduan .grid.grid-cols-1.sm\:grid-cols-2.gap-3 {
+    display: none !important;
+  }
+
+  /* Card umum */
+  #panduan .rounded-2xl {
+    border: 1pt solid #ccc !important;
+    border-radius: 4pt !important;
+    background: #fff !important;
+    padding: 10pt !important;
+    margin-bottom: 8pt !important;
+    page-break-inside: avoid;
+  }
+
+  /* Nomor langkah tetap hijau */
+  #panduan .bg-hijau-600 {
+    background-color: #2f6218 !important;
+    color: #fff !important;
+  }
+
+  /* Tabel uji lab */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 10pt;
+    margin-top: 6pt;
+  }
+
+  th, td {
+    border: 1pt solid #ccc !important;
+    padding: 4pt 8pt !important;
+  }
+
+  th {
+    background-color: #f0f9eb !important;
+    color: #2f6218 !important;
+    font-weight: bold;
+  }
+
+  /* Kalkulator — sembunyikan input, tampilkan hasil sebagai teks */
+  #panduan input {
+    display: none !important;
+  }
+
+  #panduan label {
+    display: none !important;
+  }
+
+  /* Sembunyikan kotak kalkulator, tampilkan hanya ringkasannya */
+  #panduan .bg-hijau-50.rounded-2xl {
+    border: 1pt solid #ccc !important;
+    background: #fff !important;
+    padding: 8pt !important;
+  }
+
+  /* Hasil indikator berhasil/gagal */
+  .text-green-500, .text-green-700 {
+    color: #166534 !important;
+  }
+
+  .text-red-500, .text-red-700 {
+    color: #991b1b !important;
+  }
+
+  /* Jangan potong langkah di tengah halaman */
+  #panduan .flex.flex-col.gap-4 > div {
+    page-break-inside: avoid;
+  }
+
+  /* Nomor halaman dan header */
+  @page {
+    margin: 15mm 15mm 20mm 15mm;
+    @top-center {
+      content: "PanduanSilase";
+      font-size: 9pt;
+      color: #2f6218;
+    }
+    @bottom-right {
+      content: "Halaman " counter(page) " dari " counter(pages);
+      font-size: 9pt;
+      color: #666;
+    }
+  }
 }

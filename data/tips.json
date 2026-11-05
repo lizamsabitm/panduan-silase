@@ -1,0 +1,47 @@
+{
+  "tipsBerhasil": [
+    "Pastikan kadar air bahan baku sudah cukup berkurang sebelum dicacah. Uji dengan meremas segenggam bahan — jika air menetes, bahan masih terlalu basah.",
+    "Padatkan bahan semaksimal mungkin saat memasukkan ke wadah. Semakin sedikit udara yang tersisa, semakin baik kualitas fermentasinya.",
+    "Gunakan molases dan dedak sesuai takaran yang tepat. Jangan dikurangi atau dilebihkan sembarangan.",
+    "Simpan di tempat yang benar-benar teduh, kering, dan jauh dari sinar matahari langsung.",
+    "Lindungi wadah dari gangguan hewan seperti tikus dan ayam yang bisa merusak wadah dan mencemari isi.",
+    "Jangan sekali-kali membuka wadah sebelum 21 hari penuh. Membuka terlalu awal mengganggu proses fermentasi dan bisa merusak seluruh batch."
+  ],
+  "troubleshoot": [
+    {
+      "masalah": "Silase berbau busuk seperti telur busuk atau kotoran",
+      "penyebab": "Ada udara masuk saat fermentasi berlangsung, atau kadar air bahan baku terlalu tinggi sehingga bakteri pembusuk mengambil alih.",
+      "solusi": "Jangan diberikan ke ternak. Periksa kembali proses penutupan wadah dan pastikan kadar air bahan sudah cukup dikurangi. Ulangi dari awal dengan bahan baru."
+    },
+    {
+      "masalah": "Silase berjamur",
+      "penyebab": "Wadah tidak tertutup rapat sehingga oksigen masuk dan mendukung pertumbuhan jamur.",
+      "solusi": "Silase yang berjamur luas tidak boleh diberikan ke ternak. Periksa cara menutup wadah, pastikan tidak ada celah sekecil apapun. Gunakan plastik tebal sebagai lapisan tambahan pada tutup drum."
+    },
+    {
+      "masalah": "Silase terlalu basah dan berair",
+      "penyebab": "Kadar air bahan baku terlalu tinggi saat proses pembuatan.",
+      "solusi": "Angin-anginkan bahan baku lebih lama (hingga 2 hari penuh) sebelum digunakan. Tambahkan sedikit lebih banyak dedak untuk menyerap kelebihan air."
+    },
+    {
+      "masalah": "Silase terlalu kering dan keras",
+      "penyebab": "Bahan baku terlalu lama diangin-anginkan sehingga kadar air turun terlalu jauh.",
+      "solusi": "Semprotkan sedikit air bersih pada bahan sebelum dicampur molases dan dedak, lalu uji lagi dengan cara meremas — pastikan tidak meneteskan air tapi terasa agak lembab."
+    },
+    {
+      "masalah": "Warna silase berubah menjadi hitam atau cokelat tua",
+      "penyebab": "Suhu dalam wadah terlalu tinggi atau terkena sinar matahari langsung selama penyimpanan.",
+      "solusi": "Silase dengan perubahan warna drastis ini tidak layak diberikan ke ternak. Pastikan wadah disimpan di tempat teduh dan hindari paparan matahari langsung."
+    },
+    {
+      "masalah": "Tekstur silase berlendir dan lengket",
+      "penyebab": "Proses fermentasi gagal akibat kontaminasi udara atau proporsi molases yang terlalu banyak.",
+      "solusi": "Silase berlendir tidak boleh diberikan ke ternak. Ikuti takaran molases dengan tepat (1% dari berat hijauan) dan pastikan proses pemadatan dan penutupan wadah dilakukan dengan benar."
+    },
+    {
+      "masalah": "Ternak tidak mau memakan silase",
+      "penyebab": "Ternak belum terbiasa dengan aroma dan rasa silase yang asam.",
+      "solusi": "Lakukan adaptasi bertahap. Campurkan silase dengan pakan biasa dalam proporsi kecil di awal (20–30%), kemudian tingkatkan secara perlahan selama 1–2 minggu hingga ternak terbiasa."
+    }
+  ]
+}
