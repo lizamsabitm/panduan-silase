@@ -25,18 +25,18 @@ type Langkah = {
 const alatAlat = [
   { nama: "Timbangan", fungsi: "Mengukur bahan-bahan dengan akurat" },
   { nama: "Alat Pencacah / Gunting", fungsi: "Memotong bahan baku menjadi ukuran 2–5 cm" },
-  { nama: "Wadah Fermentasi", fungsi: "Drum, gentong, atau plastik silase yang bisa ditutup rapat kedap udara" },
-  { nama: "Terpal", fungsi: "Alas untuk mencampur semua bahan" },
+  { nama: "Wadah Fermentasi", fungsi: "Drum, gentong, atau plastik silase yang bisa ditutup rapat kedap udara. Jika menggunakan plastik, pastikan berkode 2 (HDPE), 4 (LDPE), atau 5 (PP) yang tertera di dasar wadah. Jangan gunakan wadah bekas cat atau bahan kimia. Pastikan wadah bersih dan kering sebelum digunakan" },
+  { nama: "Terpal", fungsi: "Alas untuk mencampur semua bahan. Pastikan terpal bersih dan kering sebelum digunakan" },
   { nama: "Sekop", fungsi: "Untuk mencampur dan mengambil campuran pakan (opsional)" },
   { nama: "Vakum", fungsi: "Memastikan tidak ada udara masuk jika menggunakan plastik silase (opsional)" },
-  { nama: "Alat Ukur pH", fungsi: "Mengukur pH pakan setelah fermentasi selesai (ideal: 3,8–4,5)" },
+  { nama: "Alat Pengukur pH Tanah", fungsi: "Mengukur pH pakan setelah fermentasi selesai (ideal: 4–5)" },
 ];
 
 const indikatorBerhasil = [
   "Warna masih mirip dengan aslinya, tidak berubah drastis",
   "Beraroma asam segar seperti tape, tidak berbau busuk",
   "Tidak berjamur",
-  "Tingkat keasaman (pH) 3,8–4,5",
+  "Tingkat keasaman (pH) 4–5",
   "Tekstur agak lembab, tidak kering dan tidak terlalu basah",
   "Tidak ada genangan cairan di wadah",
 ];
@@ -59,7 +59,7 @@ const aturanPenggunaan = [
 const aturanPenyimpanan = [
   "Proses fermentasi berlangsung selama 21 hari — jangan dibuka sebelum waktunya",
   "Simpan di tempat teduh dan kering",
-  "Letakkan wadah di atas alas kayu, jangan langsung di tanah",
+  "Letakkan wadah di atas alas (misalnya papan kayu), jangan langsung di tanah",
   "Jauhkan dari hujan, genangan air, dan sinar matahari langsung",
   "Jauhkan dari hewan pengganggu seperti tikus dan ayam",
   "Silase tertutup rapat bisa disimpan hingga 4–7 bulan",

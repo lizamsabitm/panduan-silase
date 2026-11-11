@@ -6,13 +6,13 @@
   },
   {
     "langkah": 2,
-    "judul": "Periksa kadar air",
-    "deskripsi": "Periksa kadar air dengan cara menggenggam {bahanBaku} dan pastikan tidak mengandung air yang berlebihan. Jika air menetes saat diremas, bahan masih terlalu basah — angin-anginkan lebih lama."
+    "judul": "Potong bahan baku",
+    "deskripsi": "Setelah kadar air berkurang, potong {bahanBaku} dengan ukuran sekitar 2–5 cm menggunakan alat pencacah atau gunting."
   },
   {
     "langkah": 3,
-    "judul": "Potong bahan baku",
-    "deskripsi": "Setelah kadar air berkurang, potong {bahanBaku} dengan ukuran sekitar 2–5 cm menggunakan alat pencacah atau gunting."
+    "judul": "Periksa kadar air",
+    "deskripsi": "Periksa kadar air dengan cara menggenggam {bahanBaku} yang sudah dicacah dan pastikan tidak mengandung air yang berlebihan. Jika air menetes saat diremas, bahan masih terlalu basah, jadi angin-anginkan lebih lama."
   },
   {
     "langkah": 4,
@@ -33,26 +33,21 @@
   {
     "langkah": 7,
     "judul": "Campurkan molases dan dedak",
-    "deskripsi": "Campurkan molases dan dedak sesuai takaran yang sudah dihitung ke atas hamparan potongan {bahanBaku}, lalu aduk sampai merata."
+    "deskripsi": "Campurkan molases dan dedak sesuai takaran yang sudah dihitung ke atas hamparan potongan {bahanBaku}, lalu aduk sampai merata menggunakan sekop."
   },
   {
     "langkah": 8,
     "judul": "Aduk hingga merata",
-    "deskripsi": "Aduk semua bahan sampai molases dan dedak tercampur merata ke seluruh bagian potongan {bahanBaku}."
+    "deskripsi": "Aduk semua bahan sampai molases dan dedak tercampur merata ke seluruh bagian {bahanBaku}."
   },
   {
     "langkah": 9,
-    "judul": "Ukur kelembapan campuran",
-    "deskripsi": "Ambil segenggam campuran lalu remas kuat. Jika air menetes, campuran terlalu basah — tambahkan sedikit dedak kering. Jika tidak meneteskan air saat diremas, kelembapan sudah ideal (40–60%)."
-  },
-  {
-    "langkah": 10,
     "judul": "Masukkan ke dalam wadah",
     "deskripsi": "Masukkan campuran ke dalam wadah fermentasi (drum atau plastik silase). Padatkan dengan cara ditekan atau diinjak sampai tidak ada celah udara. Tutup rapat hingga benar-benar kedap udara."
   },
   {
-    "langkah": 11,
+    "langkah": 10,
     "judul": "Simpan selama 21 hari",
-    "deskripsi": "Simpan wadah di tempat teduh dan kering, letakkan di atas alas kayu, jauhkan dari sinar matahari langsung, hujan, dan hewan pengganggu. Jangan dibuka sebelum 21 hari penuh."
+    "deskripsi": "Simpan wadah di tempat teduh dan kering, Letakkan wadah di atas alas (misalnya papan kayu), jangan langsung di tanah. jauhkan dari hujan, genangan air, dan sinar matahari langsung. Jauhkan dari hewan pengganggu seperti tikus dan ayam. Jangan dibuka sebelum 21 hari penuh."
   }
 ]

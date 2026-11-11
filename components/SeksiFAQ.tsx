@@ -55,9 +55,11 @@ export default function SeksiFAQ() {
               {terbuka === index && (
                 <div className="px-5 pb-5">
                   <div className="border-t border-hijau-50 pt-4">
-                    <p className="text-teks-sekunder text-base leading-relaxed">
-                      {item.jawaban}
-                    </p>
+                    <div className="text-teks-sekunder text-base leading-relaxed flex flex-col gap-1">
+  {item.jawaban.split('\n').map((baris, i) => (
+    <span key={i}>{baris}</span>
+  ))}
+</div>
                   </div>
                 </div>
               )}

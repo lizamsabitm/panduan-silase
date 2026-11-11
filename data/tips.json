@@ -1,6 +1,6 @@
 {
   "tipsBerhasil": [
-    "Pastikan kadar air bahan baku sudah cukup berkurang sebelum dicacah. Uji dengan meremas segenggam bahan — jika air menetes, bahan masih terlalu basah.",
+    "Pastikan kadar air bahan baku sudah cukup berkurang setelah dicacah. Uji dengan meremas segenggam bahan — jika air menetes, bahan masih terlalu basah.",
     "Padatkan bahan semaksimal mungkin saat memasukkan ke wadah. Semakin sedikit udara yang tersisa, semakin baik kualitas fermentasinya.",
     "Gunakan molases dan dedak sesuai takaran yang tepat. Jangan dikurangi atau dilebihkan sembarangan.",
     "Simpan di tempat yang benar-benar teduh, kering, dan jauh dari sinar matahari langsung.",
@@ -16,7 +16,7 @@
     {
       "masalah": "Silase berjamur",
       "penyebab": "Wadah tidak tertutup rapat sehingga oksigen masuk dan mendukung pertumbuhan jamur.",
-      "solusi": "Silase yang berjamur luas tidak boleh diberikan ke ternak. Periksa cara menutup wadah, pastikan tidak ada celah sekecil apapun. Gunakan plastik tebal sebagai lapisan tambahan pada tutup drum."
+      "solusi": "Jamur putih yang tumbuh hanya di bagian paling atas pakan masih bisa ditoleransi — cukup buang bagian atasnya saja dan pakan di bawahnya masih bisa diberikan ke ternak. Namun jika jamur sudah masuk ke dalam pakan, pakan dinyatakan gagal dan tidak boleh diberikan ke ternak. Tanda kegagalan yang pasti adalah jamur berwarna hitam dan munculnya cacing di sekitar wadah — dalam kondisi ini seluruh pakan harus dibuang. Untuk mencegah, pastikan tidak ada celah udara sekecil apapun saat menutup wadah dan gunakan plastik tebal sebagai lapisan tambahan pada tutup drum."
     },
     {
       "masalah": "Silase terlalu basah dan berair",
