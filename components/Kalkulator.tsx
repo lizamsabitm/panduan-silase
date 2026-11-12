@@ -5,14 +5,22 @@ import { Calculator } from "lucide-react";
 
 type Props = {
   namaBahan: string;
+  onHasilBerubah?: (berat: number, dedak: number, molases: number) => void;
 };
 
-export default function Kalkulator({ namaBahan }: Props) {
+export default function Kalkulator({ namaBahan, onHasilBerubah }: Props) {
   const [beratHijauan, setBeratHijauan] = useState<string>("");
 
   const berat = parseFloat(beratHijauan);
   const dedak = isNaN(berat) ? null : parseFloat((berat * 0.1).toFixed(2));
   const molases = isNaN(berat) ? null : parseFloat((berat * 0.01).toFixed(2));
+  const handleInput = (nilai: string) => {
+  setBeratHijauan(nilai);
+  const b = parseFloat(nilai);
+  if (!isNaN(b) && b > 0 && onHasilBerubah) {
+    onHasilBerubah(b, parseFloat((b * 0.1).toFixed(2)), parseFloat((b * 0.01).toFixed(2)));
+    }
+  };
 
   return (
     <div id="kalkulator" className="bg-hijau-50 rounded-2xl p-5 border border-hijau-200">
@@ -36,7 +44,7 @@ export default function Kalkulator({ namaBahan }: Props) {
           type="number"
           min="0"
           value={beratHijauan}
-          onChange={(e) => setBeratHijauan(e.target.value)}
+          onChange={(e) => handleInput(e.target.value)}
           placeholder="Contoh: 100"
           className="w-full border-2 border-hijau-200 rounded-xl px-4 py-3 text-lg text-teks-utama focus:outline-none focus:border-hijau-500 bg-white"
         />

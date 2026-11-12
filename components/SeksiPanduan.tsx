@@ -5,6 +5,8 @@ import { Wrench, ClipboardList, CheckCircle, XCircle, Home, Beef, Printer } from
 import bahanBakuData from "@/data/bahanBaku.json";
 import langkahData from "@/data/langkahPembuatan.json";
 import Kalkulator from "@/components/Kalkulator";
+import UnduhPDF from "@/components/UnduhPDF";
+import langkahDataRaw from "@/data/langkahPembuatan.json";
 
 type BahanBaku = {
   id: string;
@@ -67,6 +69,9 @@ const aturanPenyimpanan = [
 
 export default function SeksiPanduan() {
   const [bahanDipilih, setBahanDipilih] = useState<BahanBaku | null>(null);
+  const [beratUnduh, setBeratUnduh] = useState<number | null>(null);
+  const [dedakUnduh, setDedakUnduh] = useState<number | null>(null);
+  const [molasesUnduh, setMolasesUnduh] = useState<number | null>(null);
 
   const getDeskripsi = (teks: string) => {
     if (!bahanDipilih) return teks;
@@ -223,7 +228,14 @@ export default function SeksiPanduan() {
                     </p>
                     {item.adaKalkulator && bahanDipilih && (
                       <div className="mt-4">
-                        <Kalkulator namaBahan={bahanDipilih.nama} />
+                        <Kalkulator
+                          namaBahan={bahanDipilih.nama}
+                          onHasilBerubah={(b, d, m) => {
+                          setBeratUnduh(b);
+                          setDedakUnduh(d);
+                          setMolasesUnduh(m);
+                          }}
+                          />
                       </div>
                     )}
                   </div>
@@ -304,19 +316,19 @@ export default function SeksiPanduan() {
           </ul>
         </div>
 
-        {/* Cetak */}
+        {/* Unduh PDF */}
         <div className="tombol-cetak text-center">
-          <button
-            onClick={() => window.print()}
-            className="bg-hijau-600 hover:bg-hijau-700 text-white font-semibold text-lg px-8 py-4 rounded-xl transition-colors shadow-md inline-flex items-center gap-2"
-          >
-            <Printer className="w-5 h-5" />
-            Cetak Panduan Ini
-          </button>
-          <p className="text-teks-ringan text-sm mt-3">
-            Simpan sebagai PDF atau cetak langsung untuk dibawa ke kandang
+          <UnduhPDF
+            bahanDipilih={bahanDipilih}
+            beratHijauan={beratUnduh}
+            dedak={dedakUnduh}
+            molases={molasesUnduh}
+            langkahData={langkahDataRaw}
+            />
+            <p className="text-teks-ringan text-sm mt-3">
+           Pilih bahan baku dan isi kalkulator terlebih dahulu sebelum mengunduh
           </p>
-        </div>
+          </div>
 
       </div>
     </section>
