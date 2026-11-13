@@ -333,13 +333,13 @@ export default function UnduhPDF({
     // =====================
     // CEK HASIL
     // =====================
-    cekHalaman(20);
+    cekHalaman(70);
     garisPemisah();
     tulisJudul("Cara Mengecek Hasil Fermentasi");
 
     const lebarKolomCek = (lebarKonten / 2) - 3;
 
-    cekHalaman(40);
+    
     doc.setFontSize(10);
     doc.setFont("helvetica", "bold");
     doc.setTextColor(0);
