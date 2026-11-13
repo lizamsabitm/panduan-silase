@@ -12,6 +12,10 @@ const geist = Geist({
 export const metadata: Metadata = {
   title: "PanduanSilase",
   description: "Panduan lengkap pembuatan pakan silase untuk ternak ruminansia",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
